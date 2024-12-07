@@ -22,6 +22,7 @@ Serving the HTML pages.
 Testing the webserver.
 
 # PROGRAM:
+~~~
 from django.shortcuts import render,HttpResponse
 
 
@@ -30,7 +31,7 @@ def trial(request):
     return HttpResponse('<p>Hello</p>')
 def htm(request):
     return render(request,"home.html")
-
+~~~
 ~~~
 content = '''
 <!DOCTYPE html>
