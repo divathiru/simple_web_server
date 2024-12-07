@@ -31,7 +31,7 @@ def trial(request):
 def htm(request):
     return render(request,"home.html")
 
-~
+~~~
 content = '''
 <!DOCTYPE html>
 <html lang="en">
@@ -133,7 +133,7 @@ server_address = ('',8000)
 httpd = HTTPServer(server_address,Myserver)
 httpd.serve_forever()
 
-~
+~~~
 # OUTPUT:
 
 ![Screenshot 2024-11-15 193920](https://github.com/user-attachments/assets/9d6dda27-c2bb-4486-b156-6899c6397dd4)
